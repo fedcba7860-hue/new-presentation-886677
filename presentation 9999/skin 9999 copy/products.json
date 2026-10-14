@@ -1,0 +1,241 @@
+[
+  {
+    "origin": "Skin Decode",
+    "brand": "Skin Decode",
+    "name": "Vitamin C Serum",
+    "type": "Serum",
+    "c": [
+      "pigment",
+      "dull"
+    ],
+    "note": "Boosts glow and fades dark spots.",
+    "image": "vitamin-c-serum.webp"
+  },
+  {
+    "origin": "Skin Decode",
+    "brand": "Skin Decode",
+    "name": "Hydrating Cleanser",
+    "type": "Cleanser",
+    "c": [
+      "dry",
+      "redness"
+    ],
+    "note": "Cleanses without stripping moisture.",
+    "image": "hydrating-cleanser.webp"
+  },
+  {
+    "origin": "Skin Decode",
+    "brand": "Skin Decode",
+    "name": "Daily Moisturizer",
+    "type": "Moisturiser",
+    "c": [
+      "dry"
+    ],
+    "note": "Keeps your skin soft and supple.",
+    "image": "daily-moisturizer.webp"
+  },
+  {
+    "origin": "Skin Decode",
+    "brand": "Skin Decode",
+    "name": "Niacinamide Serum",
+    "type": "Serum",
+    "c": [
+      "acne",
+      "oily",
+      "pigment"
+    ],
+    "note": "Reduces blemishes and controls oil.",
+    "image": "niacinamide-serum.webp"
+  },
+  {
+    "origin": "Skin Decode",
+    "brand": "Skin Decode",
+    "name": "Aqua Face Wash",
+    "type": "Cleanser",
+    "c": [
+      "oily",
+      "acne"
+    ],
+    "note": "Removes dirt and excess oil.",
+    "image": "aqua-face-wash.webp"
+  },
+  {
+    "origin": "Skin Decode",
+    "brand": "Skin Decode",
+    "name": "Radiant Sunscreen SPF 50",
+    "type": "Sunscreen",
+    "c": [
+      "pigment",
+      "dull"
+    ],
+    "note": "Shields from UV rays and keeps skin safe.",
+    "image": "radiant-sunscreen-spf-50.webp"
+  },
+  {
+    "origin": "Skin Decode",
+    "brand": "Skin Decode",
+    "name": "Velvet Night Cream",
+    "type": "Night Cream",
+    "c": [
+      "dry",
+      "aging"
+    ],
+    "note": "Rejuvenates skin while you sleep.",
+    "image": "velvet-night-cream.webp"
+  },
+  {
+    "origin": "Skin Decode",
+    "brand": "Skin Decode",
+    "name": "Fresh Aloe Gel",
+    "type": "Face Gel",
+    "c": [
+      "redness",
+      "dry"
+    ],
+    "note": "Calms and refreshes tired skin.",
+    "image": "fresh-aloe-gel.webp"
+  },
+  {
+    "origin": "Skin Decode",
+    "brand": "Skin Decode",
+    "name": "Clear Salicylic Acid Serum",
+    "type": "Serum",
+    "c": [
+      "acne",
+      "blackhead",
+      "oily"
+    ],
+    "note": "Unclogs pores and prevents breakouts.",
+    "image": "clear-salicylic-acid-serum.webp"
+  },
+  {
+    "origin": "Skin Decode",
+    "brand": "Skin Decode",
+    "name": "Lumina Rose Face Mask",
+    "type": "Face Mask",
+    "c": [
+      "dull",
+      "pigment"
+    ],
+    "note": "Brightens and refreshes dull skin.",
+    "image": "lumina-rose-face-mask.webp"
+  },
+  {
+    "origin": "Skin Decode",
+    "brand": "Skin Decode",
+    "name": "Soft Aura Gentle Scrub",
+    "type": "Exfoliator",
+    "c": [
+      "dull"
+    ],
+    "note": "Removes dead skin cells gently.",
+    "image": "soft-aura-gentle-scrub.webp"
+  },
+  {
+    "origin": "Skin Decode",
+    "brand": "Skin Decode",
+    "name": "Hydra Bloom Hyaluronic Serum",
+    "type": "Serum",
+    "c": [
+      "dry"
+    ],
+    "note": "Adds deep hydration and elasticity.",
+    "image": "hydra-bloom-hyaluronic-serum.webp"
+  },
+  {
+    "origin": "Skin Decode",
+    "brand": "Skin Decode",
+    "name": "Calm Cove Centella Cream",
+    "type": "Moisturiser",
+    "c": [
+      "redness",
+      "dry"
+    ],
+    "note": "Calms irritation and strengthens skin.",
+    "image": "calm-cove-centella-cream.webp"
+  },
+  {
+    "origin": "Skin Decode",
+    "brand": "Skin Decode",
+    "name": "Sun Veil Matte Sunscreen",
+    "type": "Sunscreen",
+    "c": [
+      "oily",
+      "acne"
+    ],
+    "note": "Keeps skin matte and protected.",
+    "image": "sun-veil-matte-sunscreen.webp"
+  },
+  {
+    "origin": "Skin Decode",
+    "brand": "Skin Decode",
+    "name": "Pure Glow Clay Mask",
+    "type": "Face Mask",
+    "c": [
+      "oily",
+      "blackhead"
+    ],
+    "note": "Draws out impurities and tightens pores.",
+    "image": "pure-glow-clay-mask.webp"
+  },
+  {
+    "origin": "Skin Decode",
+    "brand": "Skin Decode",
+    "name": "Dew Drop Rose Toner",
+    "type": "Toner",
+    "c": [
+      "dry",
+      "redness"
+    ],
+    "note": "Balances skin and restores freshness.",
+    "image": "dew-drop-rose-toner.webp"
+  },
+  {
+    "origin": "Skin Decode",
+    "brand": "Skin Decode",
+    "name": "Skin Nest Ceramide Cream",
+    "type": "Moisturiser",
+    "c": [
+      "dry",
+      "redness"
+    ],
+    "note": "Strengthens skin barrier and locks in moisture.",
+    "image": "skin-nest-ceramide-cream.webp"
+  },
+  {
+    "origin": "Skin Decode",
+    "brand": "Skin Decode",
+    "name": "Glow Mint Green Tea Cleanser",
+    "type": "Cleanser",
+    "c": [
+      "oily",
+      "acne"
+    ],
+    "note": "Deep cleanses and revives skin.",
+    "image": "glow-mint-green-tea-cleanser.webp"
+  },
+  {
+    "origin": "Skin Decode",
+    "brand": "Skin Decode",
+    "name": "Radiance Lab Peptide Serum",
+    "type": "Serum",
+    "c": [
+      "aging",
+      "dry"
+    ],
+    "note": "Improves elasticity and smoothness.",
+    "image": "radiance-lab-peptide-serum.webp"
+  },
+  {
+    "origin": "Skin Decode",
+    "brand": "Skin Decode",
+    "name": "Aloe Cloud Barrier Repair Gel",
+    "type": "Face Gel",
+    "c": [
+      "dry",
+      "redness"
+    ],
+    "note": "Repairs and protects sensitive skin.",
+    "image": "aloe-cloud-barrier-repair-gel.webp"
+  }
+]

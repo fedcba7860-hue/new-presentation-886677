@@ -1,0 +1,27 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Skin Decode | Dashboard</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="skin-ai-widget.css"></head><body>
+<nav class="navbar">
+<a class="brand nav-brand" href="home.html">SKIN <span>DECODE</span></a>
+<div class="nav-links">
+<a href="home.html">Dashboard</a><a href="quiz.html">Skin Scan</a><a href="ingredients.html">Ingredients</a><a href="profile.html">My Skin</a><a href="about.html">About</a>
+</div>
+<div class="nav-user"><span id="navName"></span><button class="icon-btn" onclick="logout()" title="Logout">↪</button></div>
+</nav>
+<main class="shell">
+<section class="welcome">
+<div><span class="eyebrow">YOUR PERSONAL SKIN SPACE</span><h1>Good to see you, <span id="welcomeName">there</span>.</h1><p class="tagline">Because your skin deserves better.</p><p>Decode your skin profile and explore ingredients chosen around your concerns.</p><a class="primary" href="quiz.html">Start Skin Scan →</a> <button class="secondary" onclick="openChat()">Ask Skin AI</button></div>
+<div class="hero-art"><div class="model-frame hero-model"><img src="images/model.jpg" alt="Skin Decode beauty model" onerror="this.parentNode.remove()" onload="this.closest('.hero-art').classList.add('has-model')"></div><div class="hero-orb"><div class="orb-inner"><svg class="mag" viewBox="0 0 24 24" aria-label="O" role="img"><circle cx="10" cy="10" r="6.5" fill="none" stroke="currentColor" stroke-width="2.6"/><path d="M6.8 8a3.6 3.6 0 0 1 2.6-2.1" fill="none" stroke="#fff" stroke-width="1.4" stroke-linecap="round" opacity=".8"/><path d="M15 15l6 6" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg></div></div></div>
+</section>
+<section class="stat-grid">
+<div class="stat"><span>01</span><strong>Skin Scan</strong><small>Build your profile</small></div>
+<div class="stat"><span>02</span><strong>Ingredient Match</strong><small>Concern-based suggestions</small></div>
+<div class="stat"><span>03</span><strong>Ingredient Library</strong><small>Learn before you choose</small></div>
+</section>
+<section class="section-head"><div><span class="eyebrow">SHOP BY PRODUCT</span><h2>What are you looking for?</h2></div></section><div class="type-grid"><a class="type-card" href="brands.html?type=Cleanser"><b>Cleanser</b><small>See picks</small></a><a class="type-card" href="brands.html?type=Toner"><b>Toner</b><small>See picks</small></a><a class="type-card" href="brands.html?type=Serum"><b>Serum</b><small>See picks</small></a><a class="type-card" href="brands.html?type=Moisturiser"><b>Moisturiser</b><small>See picks</small></a><a class="type-card" href="brands.html?type=Sunscreen"><b>Sunscreen</b><small>See picks</small></a><a class="type-card" href="brands.html?type=Essence"><b>Essence</b><small>See picks</small></a></div><div style="height:55px"></div><section class="section-head"><div><span class="eyebrow">EXPLORE</span><h2>What would you like to do?</h2></div></section>
+<div class="action-grid">
+<a class="action-card" href="quiz.html"><div class="action-icon">✦</div><h3>Decode My Skin</h3><p>Answer a guided questionnaire and get ingredient suggestions.</p><span>Take assessment →</span></a>
+<a class="action-card" href="ingredients.html"><div class="action-icon">◈</div><h3>Ingredient Library</h3><p>Search and compare common skincare ingredients.</p><span>Explore ingredients →</span></a>
+<a class="action-card" href="profile.html"><div class="action-icon">♡</div><h3>My Skin</h3><p>View your saved profile and favorite ingredients.</p><span>Open profile →</span></a>
+</div>
+<section class="info-banner"><div><span class="eyebrow">SKIN DECODE</span><h2>Ingredients first, then products.</h2><p>Learn what an ingredient does, then explore Korean and Indian brands that use it, or ask Skin AI.</p></div><a href="brands.html" class="secondary">Browse brands</a></section>
+</main><footer>© 2026 Skin Decode · Educational skincare ingredient guide</footer>
+<script src="script.js"></script><script src="skin-ai-widget.js"></script></body></html>

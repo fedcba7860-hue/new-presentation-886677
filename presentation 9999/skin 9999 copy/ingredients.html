@@ -1,0 +1,11 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Skin Decode | Ingredient Library</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="skin-ai-widget.css"></head><body>
+<nav class="navbar">
+<a class="brand nav-brand" href="home.html">SKIN <span>DECODE</span></a>
+<div class="nav-links">
+<a href="home.html">Dashboard</a><a href="quiz.html">Skin Scan</a><a href="ingredients.html">Ingredients</a><a href="profile.html">My Skin</a><a href="about.html">About</a>
+</div>
+<div class="nav-user"><span id="navName"></span><button class="icon-btn" onclick="logout()" title="Logout">↪</button></div>
+</nav>
+<main class="shell"><div class="page-title"><span class="eyebrow">INGREDIENT LIBRARY</span><h1>Know what goes into skincare.</h1><p>Explore ingredients by their common skincare roles and concerns.</p></div>
+<div class="library-tools"><input id="ingredientSearch" oninput="filterIngredients()" placeholder="⌕  Search an ingredient..."><select id="categoryFilter" onchange="filterIngredients()"><option value="All">All categories</option><option value="Hydrating">Hydrating</option><option value="Acne">Acne & pores</option><option value="Brightening">Brightening</option><option value="Barrier">Barrier support</option><option value="Soothing">Soothing</option></select></div>
+<div id="ingredientGrid" class="ingredient-grid"></div></main><script src="script.js"></script><script src="skin-ai-widget.js"></script></body></html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Skin Decode | Skin Scan</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="skin-ai-widget.css"></head><body>
+<nav class="navbar">
+<a class="brand nav-brand" href="home.html">SKIN <span>DECODE</span></a>
+<div class="nav-links">
+<a href="home.html">Dashboard</a><a href="quiz.html">Skin Scan</a><a href="ingredients.html">Ingredients</a><a href="profile.html">My Skin</a><a href="about.html">About</a>
+</div>
+<div class="nav-user"><span id="navName"></span><button class="icon-btn" onclick="logout()" title="Logout">↪</button></div>
+</nav>
+<main class="shell narrow">
+<div class="page-title"><span class="eyebrow">PERSONAL ASSESSMENT</span><h1>Decode your skin</h1><p>Tell us about your skin. There are no right or wrong answers.</p></div>
+<div class="progress"><div id="progressBar"></div></div>
+<form id="quizForm" class="quiz-card" onsubmit="calculateResults(event)">
+<div class="question"><span class="qnum">01</span><div><h3>How does your skin usually feel?</h3><div class="choice-grid">
+<label class="choice"><input type="radio" name="skinType" value="Oily" required><span>Oily<small>Shiny or oilier through the day</small></span></label>
+<label class="choice"><input type="radio" name="skinType" value="Dry"><span>Dry<small>Feels tight or lacks moisture</small></span></label>
+<label class="choice"><input type="radio" name="skinType" value="Combination"><span>Combination<small>Oilier in some areas, drier in others</small></span></label>
+<label class="choice"><input type="radio" name="skinType" value="Normal"><span>Balanced<small>Generally comfortable</small></span></label>
+<label class="choice"><input type="radio" name="skinType" value="Sensitive"><span>Sensitive<small>Often reacts or feels easily irritated</small></span></label>
+</div></div></div>
+<div class="question"><span class="qnum">02</span><div><h3>What is your main concern?</h3><div class="choice-grid">
+<label class="choice"><input type="radio" name="concern" value="Acne" required><span>Acne & breakouts</span></label>
+<label class="choice"><input type="radio" name="concern" value="Pigmentation"><span>Dark spots & uneven tone</span></label>
+<label class="choice"><input type="radio" name="concern" value="Dryness"><span>Dryness & dehydration</span></label>
+<label class="choice"><input type="radio" name="concern" value="Dullness"><span>Dullness</span></label>
+<label class="choice"><input type="radio" name="concern" value="Oiliness"><span>Excess oil</span></label>
+<label class="choice"><input type="radio" name="concern" value="Redness"><span>Redness / sensitivity</span></label>
+<label class="choice"><input type="radio" name="concern" value="Blackheads"><span>Blackheads / clogged pores</span></label>
+</div></div></div>
+<div class="question"><span class="qnum">03</span><div><h3>How reactive does your skin tend to be?</h3><div class="range-row"><label><input type="radio" name="sensitivity" value="Low" required> Low</label><label><input type="radio" name="sensitivity" value="Medium"> Medium</label><label><input type="radio" name="sensitivity" value="High"> High</label></div></div></div>
+<button class="primary full" type="submit">Generate My Ingredient Profile →</button>
+</form><div id="quizResult"></div>
+</main><script src="script.js"></script><script src="skin-ai-widget.js"></script></body></html>

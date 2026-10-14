@@ -1,0 +1,14 @@
+{
+  "name": "skin-decode",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Skin Decode assignment project with SQLite database and uploaded product images",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {}
+}

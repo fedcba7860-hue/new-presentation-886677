@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Skin Decode | Login</title><link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="skin-ai-widget.css"></head>
+<body class="auth-page">
+<section class="auth-hero">
+  <div class="brand auth-brand">SKIN <span>DECODE</span></div>
+  <div>
+    <h1 class="big-line">Because your skin <span>deserves better.</span></h1>
+    <p class="auth-sub">Understand your skin, decode your ingredients, and get routines and Korean and Indian product picks from Skin AI.</p>
+  </div>
+  <div class="shelf"><div class="model-frame"><img src="images/model.jpg" alt="Skin Decode beauty model" onerror="this.parentNode.remove()"></div><img src="images/login-1.png" alt="" onerror="this.remove()"><img src="images/login-2.png" alt="" onerror="this.remove()"><img src="images/login-3.png" alt="" onerror="this.remove()"><img src="images/login-4.png" alt="" onerror="this.remove()"></div>
+</section>
+<section class="auth-panel">
+<div class="auth-card">
+  <h2 class="auth-title">Welcome</h2>
+  <p class="muted">Log in or create your free skin profile.</p>
+  <div class="auth-tabs"><button class="tab active" onclick="showLogin()">Login</button><button class="tab" onclick="showSignup()">Create account</button></div>
+  <form id="loginForm" onsubmit="login(event)">
+    <label>Email</label><input id="loginEmail" type="email" placeholder="you@example.com" required>
+    <label>Password</label><input id="loginPassword" type="password" placeholder="••••••••" required>
+    <button class="primary full" type="submit" style="margin-top:20px">Enter Skin Decode</button>
+  </form>
+  <form id="signupForm" class="hidden" onsubmit="signup(event)">
+    <label>Name</label><input id="signupName" type="text" placeholder="Your name" required>
+    <label>Email</label><input id="signupEmail" type="email" placeholder="you@example.com" required>
+    <label>Password</label><input id="signupPassword" type="password" minlength="6" placeholder="Minimum 6 characters" required>
+    <button class="primary full" type="submit" style="margin-top:20px">Create my profile</button>
+  </form>
+  <p class="tiny">Educational ingredient information only. Not medical advice.</p>
+</div>
+</section>
+<script src="script.js"></script>
+<script src="skin-ai-widget.js"></script></body></html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Skin Decode | Brands</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="skin-ai-widget.css"></head><body>
+<nav class="navbar">
+<a class="brand nav-brand" href="home.html">SKIN <span>DECODE</span></a>
+<div class="nav-links">
+<a href="home.html">Dashboard</a><a href="quiz.html">Skin Scan</a><a href="ingredients.html">Ingredients</a><a href="profile.html">My Skin</a><a href="brands.html">Brands</a><a href="about.html">About</a>
+</div>
+<div class="nav-user"><span id="navName"></span><button class="icon-btn" onclick="logout()" title="Logout">↪</button></div>
+</nav>
+<main class="shell"><div class="page-title"><span class="eyebrow">SKIN DECODE</span><h1>Brands worth knowing</h1><p class="tagline">Because your skin deserves better.</p><p>Pick a product type (cleanser, toner, serum…) and a concern. Every product shown here has a supplied Skin Decode pack image. Formulas are assignment mock-ups, so always check the ingredient list and patch-test.</p></div>
+<div class="library-tools"><input id="brandSearch" placeholder="Search brand or product…" oninput="renderBrands()"><select id="brandOrigin" onchange="renderBrands()"><option value="All">All origins</option><option>Skin Decode</option></select><select id="brandConcern" onchange="renderBrands()"><option value="All">All concerns</option><option value="acne">Acne</option><option value="oily">Oily skin</option><option value="dry">Dryness</option><option value="pigment">Dark spots</option><option value="dull">Dullness</option><option value="redness">Redness</option><option value="blackhead">Blackheads</option><option value="aging">Fine lines</option></select></div>
+<div id="typeChips" class="type-chips"></div>
+<div id="brandGrid" class="ingredient-grid"></div></main>
+<footer>© 2026 Skin Decode · Educational skincare guide. Brand mentions are suggestions, not endorsements or medical advice.</footer>
+<script src="script.js"></script><script src="skin-ai-widget.js"></script></body></html>

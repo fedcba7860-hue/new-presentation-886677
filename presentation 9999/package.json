@@ -1,0 +1,14 @@
+{
+  "name": "skin-decode",
+  "version": "4.0.1",
+  "private": true,
+  "description": "Skin Decode website",
+  "scripts": {
+    "start": "node skin-decode-exact-copy/server.js",
+    "dev": "node skin-decode-exact-copy/server.js"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {}
+}
